@@ -1,0 +1,6 @@
+com.citaq.aidlservice
+drawable ic_launcher
+drawable logo
+string app_name
+style AppBaseTheme
+style AppTheme

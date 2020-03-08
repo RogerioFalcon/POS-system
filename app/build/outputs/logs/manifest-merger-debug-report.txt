@@ -1,0 +1,114 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:1-52:12
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Advice\.gradle\caches\transforms-2\files-2.1\91e819e1b0c1e56b2ce87097ad105d1e\AndroidManifest.xml:15:1-18:12
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:1-52:12
+	package
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:7:5-47
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Advice\.gradle\caches\transforms-2\files-2.1\91e819e1b0c1e56b2ce87097ad105d1e\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Advice\.gradle\caches\transforms-2\files-2.1\91e819e1b0c1e56b2ce87097ad105d1e\AndroidManifest.xml:16:5-42
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:11:5-12:23
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:14:5-16:23
+	tools:ignore
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:14:22-81
+application
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:18:5-50:19
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Advice\.gradle\caches\transforms-2\files-2.1\91e819e1b0c1e56b2ce87097ad105d1e\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Advice\.gradle\caches\transforms-2\files-2.1\91e819e1b0c1e56b2ce87097ad105d1e\AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:20:9-45
+	android:allowBackup
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:22:9-40
+service#com.citaq.aidlservice.PosService
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:23:9-29:19
+	android:process
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:25:13-38
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:24:13-60
+intent-filter#action:name:com.citaq.aidlservice.IPosService
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:26:13-28:29
+action#com.citaq.aidlservice.IPosService
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:27:25-73
+activity#com.citaq.aidlservice.RemoteActivity
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:31:9-49:20
+	android:label
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:33:13-45
+	android:theme
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:34:13-59
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:32:13-43
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:35:13-38:29
+category#android.intent.category.LAUNCHER
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:37:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:my.com+data:scheme:citaq
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:39:13-48:29
+action#android.intent.action.VIEW
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:40:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:42:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:43:17-78
+	android:name
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:43:27-75
+data
+ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:45:17-47:46
+	android:host
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:46:21-42
+	android:scheme
+		ADDED from D:\04_Work\Android\POS\PosService\app\src\main\AndroidManifest.xml:47:21-43

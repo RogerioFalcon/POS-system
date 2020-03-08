@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script-->
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+/*
+select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=text] {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+*/
+a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Print Test</h3>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<label for="id_logo">Image</label>	
+			<input type="text" id="id_logo" name="logo" placeholder="Enter a logo file location...">
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-12">
+			<label for="text1">Sub Location</label>
+			<input type="text" id="text1" name="texts" placeholder="Enter a text...">
+			
+			<label for="fontsize1">FontSize</label>
+			<select id="fontsize1" name="fontsize">
+			  <option value="1">12px</option>
+			  <option value="2">18px</option>
+			  <option value="3">24px</option>
+			  <option value="4">32px</option>
+			</select>
+			
+			<label for="align1">Align</label>
+			<select id="align1" name="align">
+			  <option value="1">Left</option>
+			  <option value="2">Center</option>
+			  <option value="3">Right</option>
+			</select>
+
+			<input type="checkbox" id="bold1" name="bold" value="bold1"> <strong>Bold</strong>
+			<input type="checkbox" id="linebreak1" name="linebreak" value="linebreak1"> Line Break
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-12">
+			<label for="text2">Address</label>
+			<input type="text" id="text2" name="texts" placeholder="Enter a text...">
+			
+			<label for="fontsize2">FontSize</label>
+			<select id="fontsize2" name="fontsize">
+			  <option value="1">12px</option>
+			  <option value="2">18px</option>
+			  <option value="3">24px</option>
+			  <option value="4">32px</option>
+			</select>
+			
+			<label for="align2">Align</label>
+			<select id="align2" name="align">
+			  <option value="1">Left</option>
+			  <option value="2">Center</option>
+			  <option value="3">Right</option>
+			</select>
+
+			<input type="checkbox" id="bold2" name="bold" value="bold2"> <strong>Bold</strong>
+			<input type="checkbox" id="linebreak2" name="linebreak" value="linebreak2"> Line Break
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-12">
+			<label for="text3">Service Name</label>
+			<input type="text" id="text3" name="texts" placeholder="Enter a text...">
+			
+			<label for="fontsize3">FontSize</label>
+			<select id="fontsize3" name="fontsize">
+			  <option value="1">12px</option>
+			  <option value="2">18px</option>
+			  <option value="3">24px</option>
+			  <option value="4">32px</option>
+			</select>
+			
+			<label for="align3">Align</label>
+			<select id="align3" name="align">
+			  <option value="1">Left</option>
+			  <option value="2">Center</option>
+			  <option value="3">Right</option>
+			</select>
+
+			<input type="checkbox" id="bold3" name="bold" value="bold3"> <strong>Bold</strong>
+			<input type="checkbox" id="linebreak3" name="linebreak" value="linebreak3"> Line Break
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-12">
+			<label for="text4">Token</label>
+			<input type="text" id="text4" name="texts" placeholder="Enter a text...">
+			
+			<label for="fontsize4">FontSize</label>
+			<select id="fontsize4" name="fontsize">
+			  <option value="1">12px</option>
+			  <option value="2">18px</option>
+			  <option value="3">24px</option>
+			  <option value="4">32px</option>
+			</select>
+			
+			<label for="align4">Align</label>
+			<select id="align4" name="align">
+			  <option value="1">Left</option>
+			  <option value="2">Center</option>
+			  <option value="3">Right</option>
+			</select>
+
+			<input type="checkbox" id="bold4" name="bold" value="bold4"> <strong>Bold</strong>
+			<input type="checkbox" id="linebreak4" name="linebreak" value="linebreak4"> Line Break
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-12">
+			<label for="text5">Token Ahead</label>
+			<input type="text" id="text5" name="texts" placeholder="Enter a text...">
+			
+			<label for="fontsize5">FontSize</label>
+			<select id="fontsize5" name="fontsize">
+			  <option value="1">12px</option>
+			  <option value="2">18px</option>
+			  <option value="3">24px</option>
+			  <option value="4">32px</option>
+			</select>
+			
+			<label for="align5">Align</label>
+			<select id="align5" name="align">
+			  <option value="1">Left</option>
+			  <option value="2">Center</option>
+			  <option value="3">Right</option>
+			</select>
+
+			<input type="checkbox" id="bold5" name="bold" value="bold5"> <strong>Bold</strong>
+			<input type="checkbox" id="linebreak5" name="linebreak" value="linebreak5"> Line Break
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-12">
+			<label for="text6">Datetime</label>
+			<input type="text" id="text6" name="texts" placeholder="Enter a text...">
+			
+			<label for="fontsize6">FontSize</label>
+			<select id="fontsize6" name="fontsize">
+			  <option value="1">12px</option>
+			  <option value="2">18px</option>
+			  <option value="3">24px</option>
+			  <option value="4">32px</option>
+			</select>
+			
+			<label for="align6">Align</label>
+			<select id="align6" name="align">
+			  <option value="1">Left</option>
+			  <option value="2">Center</option>
+			  <option value="3">Right</option>
+			</select>
+
+			<input type="checkbox" id="bold6" name="bold" value="bold6"> <strong>Bold</strong>
+			<input type="checkbox" id="linebreak6" name="linebreak" value="linebreak6"> Line Break
+		</div>
+	</div>
+	<br/><br/>
+
+	<a href="#" id="ptn_print" onclick="javascript:clickHandler(); return false;"> Print </a>
+	<br/>
+</div>
+<script type="text/javascript">
+function clickHandler(){
+	var length = document.getElementsByName("texts").length;
+	var arg1 = document.getElementById("id_logo").value;
+	var items=[];
+	for(i=0; i<length; i++)
+	{
+		var item = new Object();
+		item.text = document.getElementsByName("texts")[i].value;
+		item.fontsize = document.getElementsByName("fontsize")[i].value;
+		item.align = document.getElementsByName("align")[i].value;
+		item.bold = document.getElementsByName("bold")[i].checked;
+		item.linebreak = document.getElementsByName("linebreak")[i].checked;
+		items.push(item);
+	}
+	var arg2 = JSON.stringify(items);
+	var links = 'citaq://my.com/?arg0=1001' + 
+				'&arg1=' +  arg1 +
+				'&arg2=' +  arg2;
+	console.log(links);
+	window.location.href = links;
+	location.reload(true)
+	/*
+	var boldcheck = document.getElementById("bold").checked;
+	boldcheck = boldcheck === true ? 1 : 0;
+	
+	var links= 'citaq://my.com/?arg0=1001' + 
+		'&arg1=' +  document.getElementById('function').value +
+		'&arg2=' +  document.getElementById('input').value +
+		'&arg3=' +  document.getElementById('fontsize').value +
+		'&arg4=' +  boldcheck +
+		'&arg5=' +  document.getElementById('align').value;
+	console.log(links);
+	window.location.href = links;
+	*/
+	return false;
+}
+/*
+  document.getElementById("ptn_print").onclick = function() {
+    document.getElementById("abc").href="xyz.php"; 
+    return false;
+  };
+  */
+</script>
+</body>
+</html>
